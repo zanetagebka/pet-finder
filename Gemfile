@@ -14,7 +14,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 ### Project required
 gem 'hotwire-rails' # For js
-gem 'acts-as-taggable-on', '~> 6.0' # For tags on pets -> this will also works like adding tags "live"
+gem 'acts-as-taggable-on', '~> 7.0' # For tags on pets -> this will also works like adding tags "live"
 gem 'rolify' # Roles for users
 gem 'cancancan' # For permissions
 
