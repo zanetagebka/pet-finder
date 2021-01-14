@@ -13,7 +13,17 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 ### Project required
-gem 'hotwire-rails'
+gem 'hotwire-rails' # For js
+gem 'acts-as-taggable-on', '~> 6.0' # For tags on pets -> this will also works like adding tags "live"
+gem 'rolify' # Roles for users
+gem 'cancancan' # For permissions
+
+# For all authentication
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
+
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
